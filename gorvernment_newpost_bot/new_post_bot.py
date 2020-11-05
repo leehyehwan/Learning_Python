@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from slacker import Slacker
-from private.slack_token import slack_token
+from private.tokens import slack as slack_token
 
 
 def post_bot1():
